@@ -12,7 +12,7 @@ function App() {
     try {
       setLoading(true);
 
-      const res = await axios.post("http://page-pulse-task.onrender.com", {
+      const res = await axios.post("http://page-pulse-task.onrender.com/audit", {
         url,
       });
 
